@@ -1,0 +1,29 @@
+#root {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+#root > div {
+  display: grid;
+  gap: 1rem;
+}
+
+.button {
+  width: fit-content;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  font-weight: 700;
+  color: rgb(59, 130, 246);
+  text-decoration: inherit;
+
+  border-width: 1px;
+  border-radius: 0.25rem;
+  border-color: rgb(59, 130, 246);
+  border-style: solid;
+}   
